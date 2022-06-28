@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Caveat', cursive;
 }
 
 .App-logo {
@@ -14,7 +15,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title{
+  color: black;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: 	#28282B;
+  font-weight: 500;
+}
+
+.navbar ul{
+  list-style: none;
+}
+
+.navbar ul li{
+  display: inline;
+  margin: 2vh;
+
+}
+
+iframe{
+  position: relative;
+  width: 100vh;
 }
