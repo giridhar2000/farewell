@@ -1,15 +1,17 @@
 import './App.css';
-import Home from './Components/Home';
+import Home from './Components/Home/Home';
 import { BrowserRouter as Router,Route, Routes } from 'react-router-dom'
-import Travel from './Components/Travel';
-import Navbar from './Components/Navbar';
-import Story from './Components/Story';
-import Photos from './Components/Photos';
+import Travel from './Components/Travel/Travel';
+import Navbar from './Components/Navbar/Navbar';
+import Story from './Components/Story/Story';
+import Photos from './Components/Photos/Photos';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Header />
         <Navbar />
         <Router>
           <Routes>
