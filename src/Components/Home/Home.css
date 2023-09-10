@@ -1,5 +1,18 @@
 .marquees img {
-    width: 99%;
-    height: 40vh;
+    /* width: 99%; */
+    /* height: 40vh; */
     border-radius: 2vh;
+}
+
+.initial-child-container {
+    gap: 3vh
+}
+
+@media(max-width:767px) {
+    .marquees img {
+        width: auto;
+        height: auto;
+        border-radius: 2vh;
+    }
+    
 }
